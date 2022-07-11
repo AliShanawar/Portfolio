@@ -12,7 +12,8 @@ const Toggle = () => {
     theme.dispatch({ type: "toggle" });
   };
   return (
-    <div className="toggle" onClick={handleClick}>
+    <>
+        <div className="toggle" onClick={handleClick}>
       <Moon />
       <Sun />
       {/*                              toggle.css mein left ki property aik assign hy ussy delete
@@ -22,6 +23,8 @@ const Toggle = () => {
         style={darkMode ? { left: "2px" } : { right: "2px" }}
       ></div>
     </div>
+    </>
+
   );
 };
 

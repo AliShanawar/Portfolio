@@ -12,6 +12,7 @@ const Works = () => {
 
   // transition
   return (
+    <>
     <div className="works" id="works">
       {/* left side */}
       <div className="w-left">
@@ -21,7 +22,7 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
+          <span>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
             ispum is simpley dummy text of printingLorem ispum is simpley dummy
@@ -30,7 +31,7 @@ const Works = () => {
             y dummy text of printingLorem
             <br />
             ispum is simpley dummy text of printing
-          </spane>
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
@@ -71,6 +72,8 @@ const Works = () => {
         <div className="w-backCircle yellowCircle"></div>
       </div>
     </div>
+    </>
+    
   );
 };
 

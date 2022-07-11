@@ -35,6 +35,7 @@ const Testimonial = () => {
   ];
 
   return (
+    <>
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
         <span>Clients always get </span>
@@ -62,6 +63,8 @@ const Testimonial = () => {
         })}
       </Swiper>
     </div>
+    </>
+    
   );
 };
 

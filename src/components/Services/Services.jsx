@@ -20,17 +20,18 @@ const Services = () => {
   };
 
   return (
-    <div className="services" id="services">
+    <>
+     <div className="services" id="services">
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
+        <span>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
-        </spane>
+        </span>
         <a href={shanawar} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -83,6 +84,8 @@ const Services = () => {
         ></div>
       </div>
     </div>
+    </>
+   
   );
 };
 

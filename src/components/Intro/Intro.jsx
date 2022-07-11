@@ -22,6 +22,7 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
+    <>
     <div className="Intro" id="Intro">
       {/* left name side */}
       <div className="i-left">
@@ -95,6 +96,8 @@ const Intro = () => {
         ></div>
       </div>
     </div>
+    </>
+    
   );
 };
 
